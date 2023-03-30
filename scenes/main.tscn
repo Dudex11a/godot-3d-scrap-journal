@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl3k3j4fa8vpa"]
+
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_ylyuc"]
+[ext_resource type="PackedScene" uid="uid://bwtlu85vy1cg0" path="res://pages/03-29-2023/03_29_2023.tscn" id="2_hvnah"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_ylyuc")
+
+[node name="03-29-2023" parent="." instance=ExtResource("2_hvnah")]

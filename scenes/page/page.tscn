@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://0j1hrjooypuf"]
+
+[ext_resource type="Script" path="res://scenes/page/page.gd" id="1_563gi"]
+
+[node name="Page" type="Node3D"]
+script = ExtResource("1_563gi")
+
+[node name="Camera" type="Camera3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 16)
+fov = 35.0
